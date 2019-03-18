@@ -22,7 +22,7 @@ LDFLAGS+=-lm
 
 DEPFLAGS+=-MT $@ -MMD -MP -MF $*.d
 
-
+STFLASH=st-flash
 
 
 ifeq ($(CC),cc)
@@ -46,6 +46,9 @@ binary: executable Makefile
 
 info: binary
 	$(CROSS)$(SIZE) -A $(TARGET).elf
+
+flash: binary
+	$(STFLASH) write $(TARGET).bin 0x08000000
 
 %.o : %.c %.d Makefile
 	$(CROSS)$(CC) $(CFLAGS) $(DEPFLAGS) -c $< -o $@
