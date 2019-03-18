@@ -1,4 +1,4 @@
-TARGET=sample
+TARGET=ShakeYourHead
 
 CSRCS=$(shell find . -name "*.c")
 
@@ -10,8 +10,7 @@ CFLAGS+=-mthumb
 CFLAGS+=-g
 CFLAGS+=-I./Lib/
 
-CFLAGS+=-DSTM32F429_439xx
-CFLAGS+=-DARM_MATH_CM4
+CFLAGS+=-DSTM32F40_41xxx
 CFLAGS+=-DUSE_STDPERIPH_DRIVER
 
 LDFLAGS+=-TSTM32_flash.ld
