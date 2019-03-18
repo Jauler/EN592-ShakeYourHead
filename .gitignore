@@ -1,0 +1,7 @@
+*.o
+*.d
+*.swo
+*.swp
+
+/ShakeYourHead.bin
+/ShakeYourHead.elf
