@@ -3,9 +3,9 @@ ShakeYourHead
 
 A little device used as artifact during encounter [game](http://vilnius.en.cx/GameDetails.aspx?gid=64323) which allows to see some text when rapidly shaking your head.
 
-![](https://github.com/jauler/EN592-ShakeYourHead/master/img/image1.jpg "Photo of the artifact")
+![](https://raw.githubusercontent.com/Jauler/EN592-ShakeYourHead/master/img/image1.jpg "Photo of the artifact")
 
-![](https://github.com/jauler/EN592-ShakeYourHead/master/img/image2.jpg "Photo of the artifact")
+![](https://raw.githubusercontent.com/Jauler/EN592-ShakeYourHead/master/img/image2.jpg "Photo of the artifact")
 
 
 ### Building
