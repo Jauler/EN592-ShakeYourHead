@@ -10,15 +10,13 @@ A little device used as artifact during encounter [game](http://vilnius.en.cx/Ga
 
 ### Building
 
-Assuming arm-none-eabi-gcc cross-compiler is installed and working - Just issue:
+Assuming make tools and arm-none-eabi-gcc cross-compiler is installed and working - just issue:
 
 ```
 $ make
 ```
 
-This assumes that make tools and toolchain is already installed and working.
-
-If `st-flash` utility is installed and working, board can be flashed with
+Assuming that [st-util](https://github.com/texane/stlink) utility is installed and working:
 ```
 $ make flash
 ```
